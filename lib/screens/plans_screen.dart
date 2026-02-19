@@ -28,7 +28,7 @@ class PlansScreen extends StatelessWidget {
 
               const SizedBox(height: 24,),
               PlanCardWidget(
-                title: 'Plano Mensal',
+                title: 'Plano PREMIUM',
                 price: 'R\$ 109,00 / mês',
                 features: [
                   PlanFeature('Tudo do plano free e mais:', Icons.add),
