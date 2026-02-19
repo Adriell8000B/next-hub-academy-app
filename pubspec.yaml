@@ -34,13 +34,13 @@ flutter_launcher_icons:
   adaptive_icon_foreground: "assets/logo.jpg"
 
 flutter_native_splash:
-  color: "#1060E0" 
+  color: "#1564E5" 
   image: assets/logo.jpg
   fullscreen: true
 
   android_12:
     image: assets/logo.jpg
-    color: "#1060E0"
+    color: "#1564E5"
 
   android_gravity: fill
   ios_content_mode: scaleAspectFill
