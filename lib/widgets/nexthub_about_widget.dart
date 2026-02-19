@@ -6,22 +6,27 @@ class NexthubAboutWidget extends StatelessWidget {
   final List<Map<String, dynamic>> _aboutData = const [
     {
       'title': 'Mentoria com Victor Vicente',
-      'subtitle': 'Lives semanais exclusivas e mentoria direta.',
+      'subtitle': 'Lives semanais exclusivas e mentoria direta com um dos principais educadores tech do Brasil.',
       'icon': Icons.paste,
     },
     {
-      'title': 'Cursos Exclusivos',
-      'subtitle': 'Acesse nossa trilha de conhecimento.',
+      'title': 'Projetos reais',
+      'subtitle': 'Desenvolva aplicações completas que empresas realmente usam. Do planejamento ao deploy.',
       'icon': Icons.school_rounded,
     },
     {
-      'title': 'Certificado de Conclusão',
-      'subtitle': 'Valide suas habilidades no mercado de trabalho.',
+      'title': 'Certificação profissional',
+      'subtitle': 'Certificados reconhecidos pelo mercado com validação de habilidades técnicas reais comprovadas.',
       'icon': Icons.verified,
     },
     {
       'title': 'Comunidade VIP',
       'subtitle':'Acesso ao nosso servidor no Discord com mais de 800 desenvolvedores. Networking e colaboração constante.',
+      'icon': Icons.group,
+    },
+    {
+      'title': 'HubIA',
+      'subtitle':'Nossa inteligência exclusiva que te ajuda 24/7 com dúvidas, correção de bugs e revisão de código em tempo real.',
       'icon': Icons.group,
     },
   ];
