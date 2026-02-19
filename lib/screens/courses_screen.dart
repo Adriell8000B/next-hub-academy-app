@@ -14,8 +14,14 @@ class CoursesScreen extends StatelessWidget {
         size: 80,
       ),
       CourseBubbleWidget(
-        title: 'Introdução ao JavaScript',
-        subtitle: 'Fundamentos de JavaScript para iniciantes. Aprenda lógica de programação, variáveis, funções, condicionais, loops, manipulação do DOM, eventos e consumo de APIs com projetos práticos.',
+        title: 'Introdução ao Flutter',
+        subtitle: 'Fundamentos de Flutter para iniciantes, o guia essencial para criar seu primeiro app.',
+        image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/flutter.png',
+        size: 90,
+      ),
+      CourseBubbleWidget(
+        title: 'Introdução ao Javascript',
+        subtitle: 'Fundamentos de Javascript para iniciantes. Aprenda lógica de programação, variáveis, funções, condicionais, loops, manipulação do DOM, eventos e consumo de APIs com projetos práticos.',
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/javascript-light.png',
         size: 80,
       ),
@@ -38,15 +44,15 @@ class CoursesScreen extends StatelessWidget {
         size: 120,
       ),
       CourseBubbleWidget(
-        title: 'Introdução ao Flutter',
-        subtitle: 'Fundamentos de Flutter para iniciantes, o guia essencial para criar seu primeiro app.',
-        image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/flutter.png',
-        size: 90,
-      ),
-      CourseBubbleWidget(
         title: 'Introdução ao Nodejs',
         subtitle: 'Fundamentos de Nodejs para iniciantes, o guia para sua primeira API.',
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nodejs.png',
+        size: 90,
+      ),
+      CourseBubbleWidget(
+        title: 'Introdução ao Rust',
+        subtitle: 'Fundamentos de Rust para iniciantes, dominando a segurança de memória e performance.',
+        image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/rust.png',
         size: 90,
       ),
     ];
