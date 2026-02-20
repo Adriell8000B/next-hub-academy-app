@@ -15,7 +15,7 @@ class CoursesScreen extends StatelessWidget {
       ),
       CourseBubbleWidget(
         title: 'Introdução ao Flutter',
-        subtitle: 'Fundamentos de Flutter para iniciantes, o guia essencial para criar seu primeiro app.',
+        subtitle: 'Fundamentos de Flutter para iniciantes. O guia essencial para criar seu primeiro app.',
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/flutter.png',
         size: 90,
       ),
@@ -33,7 +33,7 @@ class CoursesScreen extends StatelessWidget {
       ),
       CourseBubbleWidget(
         title: 'Introdução ao C++',
-        subtitle: 'Fundamentos de C++ para iniciantes, o primeiro passo para dominar a linguagem por trás dos grandes sistemas e jogos.',
+        subtitle: 'Fundamentos de C++ para iniciantes. O primeiro passo para dominar a linguagem por trás dos grandes sistemas e jogos.',
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cpp.png',
         size: 100,
       ),
@@ -45,14 +45,20 @@ class CoursesScreen extends StatelessWidget {
       ),
       CourseBubbleWidget(
         title: 'Introdução ao Nodejs',
-        subtitle: 'Fundamentos de Nodejs para iniciantes, o guia para sua primeira API.',
+        subtitle: 'Fundamentos de Nodejs para iniciantes. O guia para sua primeira API.',
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nodejs.png',
         size: 90,
       ),
       CourseBubbleWidget(
         title: 'Introdução ao Rust',
-        subtitle: 'Fundamentos de Rust para iniciantes, dominando a segurança de memória e performance.',
+        subtitle: 'Fundamentos de Rust para iniciantes. Dominando a segurança de memória e performance.',
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/rust.png',
+        size: 90,
+      ),
+      CourseBubbleWidget(
+        title: 'Introdução ao Python',
+        subtitle: 'Fundamentos de Python para iniciantes. O ponto de partida ideal para Data Science, Inteligência Artificial e automação de tarefas.',
+        image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/python.png',
         size: 90,
       ),
     ];
