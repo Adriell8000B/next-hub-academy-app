@@ -61,6 +61,12 @@ class CoursesScreen extends StatelessWidget {
         image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/python.png',
         size: 90,
       ),
+      CourseBubbleWidget(
+        title: 'Introdução ao Ruby',
+        subtitle: 'Fundamentos de Ruby para iniciantes. O primeiro passo para aplicações escaláveis com Ruby on Rails.',
+        image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/python.png',
+        size: 90,
+      ),
     ];
 
     return Scaffold(
