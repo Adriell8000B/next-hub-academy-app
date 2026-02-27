@@ -44,6 +44,10 @@ class DrawerNavigator extends StatelessWidget {
           label: Text('Planos'),
         ),
         const NavigationDrawerDestination(
+          icon: Icon(Icons.person),
+          label: Text('Perfil'),
+        ),
+        const NavigationDrawerDestination(
           icon: Icon(Icons.help),
           label: Text('Ajuda'),
         ),

@@ -4,6 +4,7 @@ import 'package:nexthubacademy/screens/courses_screen.dart';
 import 'package:nexthubacademy/screens/help_screen.dart';
 import 'package:nexthubacademy/screens/home_screen.dart';
 import 'package:nexthubacademy/screens/plans_screen.dart';
+import 'package:nexthubacademy/screens/profile_screen.dart';
 import 'package:nexthubacademy/widgets/appbar_widget.dart';
 
 class ShellScreen extends StatefulWidget {
@@ -45,6 +46,7 @@ class _ShellScreenState extends State<ShellScreen> {
       HomeScreen(onNavigate: _navigateFromButton),
       CoursesScreen(),
       PlansScreen(),
+      ProfileScreen(),
       HelpScreen(),
     ];
   }
