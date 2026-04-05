@@ -1,3 +1,3 @@
 # nexthubacademy
 
-![Home Section](preview/home.png)
+<img src="preview/home.png" alt="Home Section" width="300">
